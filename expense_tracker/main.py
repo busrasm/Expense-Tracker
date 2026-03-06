@@ -15,7 +15,9 @@ while True:
     choice = int(input("Yapmak istediğiniz işlem (1-5): "))
 
     if choice == 1:
-        spending_date = input("Tarih (GG-AA-YYYY veya 'bugün'): ")
+        spending_date = input("Tarih (GG.AA.YYYY - Bugün için boş bırak): ")
+        if spending_date == "": 
+            spending_date = date.today().strftime("%d.%m.%Y") 
         amount = float(input("Tutar: "))
         category = input("Kategori: ")
         note = input("Açıklama: ")

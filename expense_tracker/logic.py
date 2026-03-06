@@ -25,4 +25,3 @@ def filter_by_date(expenses, target_date):
         if h["tarih"] == target_date:
             filtered.append(h)
     return filtered
-
