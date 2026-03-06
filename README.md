@@ -1,6 +1,6 @@
-### ** *Mini Expense Tracker* **
+### ***Mini Expense Tracker***
 
-** *Açıklama:* **
+***Açıklama:***
 *Python ile geliştirilmiş, JSON tabanlı harçlık takip uygulaması.*
 
 *Proje, sürdürülebilir bir kod yapısı için şu dosyalardan oluşur:*
